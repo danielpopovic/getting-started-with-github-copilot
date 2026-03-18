@@ -108,6 +108,48 @@ button:hover {
   background-color: #3949ab;
 }
 
+.participants-list {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding-left: 0;
+  color: #333;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.participant-name {
+  overflow-wrap: anywhere;
+  font-weight: 500;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #d32f2f;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #777;
+  margin-top: 8px;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
